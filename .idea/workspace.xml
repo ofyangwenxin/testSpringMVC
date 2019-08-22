@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d257864-6e2b-4a75-9c3e-47353ca5d132" name="Default Changelist" comment="" />
+    <list default="true" id="1d257864-6e2b-4a75-9c3e-47353ca5d132" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/spittr/junit/PrimeNumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spittr/junit/TestMessageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spittr/junit/TestMessageDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spittr/junit/TestPrimeNumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spittr/junit/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spittr/pojo/MessageDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +22,22 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/spittr/junit/TestPrimeNumberChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,6 +48,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,6 +74,13 @@
         <option value="$PROJECT_DIR$/src/test/java/spittr/web/SpittleControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/spittr/pojo/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/spittr/web/TestHamcrest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/pojo/MessageDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/pojo/TestMessageDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/junit/TestMessageDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/junit/TestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/junit/TestMessageDemo2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/junit/PrimeNumberChecker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/junit/TestPrimeNumberChecker.java" />
       </list>
     </option>
   </component>
@@ -76,11 +109,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="439" />
-    <option name="y" value="73" />
+    <option name="x" value="579" />
+    <option name="y" value="67" />
     <option name="width" value="782" />
     <option name="height" value="599" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -168,6 +202,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spittr" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testSpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testSpringMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testSpringMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566295920170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566439004657" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -210,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestHamcrest.testMethod">
+  <component name="RunManager" selected="JUnit.TestPrimeNumberChecker.testPrimeNumberCheck">
     <configuration name="TestHamcrest.testMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testSpringMVC" />
       <extension name="coverage">
@@ -243,22 +295,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMockito.testForIOException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testSpringMVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spittr.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spittr.web" />
-      <option name="MAIN_CLASS_NAME" value="spittr.web.TestMockito" />
-      <option name="METHOD_NAME" value="testForIOException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMockito.testSpy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testSpringMVC" />
       <extension name="coverage">
@@ -275,29 +311,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMockito.testVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrimeNumberChecker.testPrimeNumberCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testSpringMVC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spittr.web.*" />
+          <option name="PATTERN" value="spittr.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spittr.web" />
-      <option name="MAIN_CLASS_NAME" value="spittr.web.TestMockito" />
-      <option name="METHOD_NAME" value="testVerify" />
+      <option name="PACKAGE_NAME" value="spittr.junit" />
+      <option name="MAIN_CLASS_NAME" value="spittr.junit.TestPrimeNumberChecker" />
+      <option name="METHOD_NAME" value="testPrimeNumberCheck" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testSpringMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spittr.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spittr.junit" />
+      <option name="MAIN_CLASS_NAME" value="spittr.junit.TestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPrimeNumberChecker.testPrimeNumberCheck" />
+        <item itemvalue="JUnit.TestSuite" />
         <item itemvalue="JUnit.TestHamcrest.testMethod" />
         <item itemvalue="JUnit.TestMockito.testCaptureArgument" />
         <item itemvalue="JUnit.TestMockito.testSpy" />
-        <item itemvalue="JUnit.TestMockito.testVerify" />
-        <item itemvalue="JUnit.TestMockito.testForIOException" />
       </list>
     </recent_temporary>
   </component>
@@ -315,20 +366,12 @@
       <workItem from="1565831079922" duration="19969000" />
       <workItem from="1565916626566" duration="11450000" />
       <workItem from="1566193308502" duration="4981000" />
-      <workItem from="1566294764860" duration="1141000" />
+      <workItem from="1566294764860" duration="1961000" />
+      <workItem from="1566437287019" duration="1634000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHamcrest_testMethod - 2019.08.19 at 15h 38m 25s.xml">
-      <configuration name="TestHamcrest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHamcrest_testMethod - 2019.08.19 at 15h 40m 19s.xml">
-      <configuration name="TestHamcrest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHamcrest_testMethod - 2019.08.20 at 17h 59m 57s.xml">
-      <configuration name="TestHamcrest.testMethod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestHamcrest_testMethod - 2019.08.20 at 18h 00m 50s.xml">
       <configuration name="TestHamcrest.testMethod" configurationId="JUnit" />
     </history-entry>
@@ -350,14 +393,24 @@
     <history-entry file="TestHamcrest_testMethod - 2019.08.20 at 18h 09m 42s.xml">
       <configuration name="TestHamcrest.testMethod" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSuite - 2019.08.22 at 09h 37m 33s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.08.22 at 09h 37m 54s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrimeNumberChecker_testPrimeNumberCheck - 2019.08.22 at 09h 51m 28s.xml">
+      <configuration name="TestPrimeNumberChecker.testPrimeNumberCheck" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48351000" />
+    <option name="totallyTimeSpent" value="50805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="579" y="67" width="782" height="599" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4418417" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42541435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -366,7 +419,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41489363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44893616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -702,12 +755,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/pojo/MessageDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/junit/TestMessageDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/junit/TestMessageDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/junit/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/junit/PrimeNumberChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/junit/TestPrimeNumberChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>testSpringMVC</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
